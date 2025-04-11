@@ -9,8 +9,8 @@ curl the primary ALB again and you will see a 502 error:
 curl $Ingress_1  
 
 <html>
-<head><title>502 Bad Gateway</title></head>
+<head><title>504 Bad Gateway</title></head>
 <body>
-<center><h1>502 Bad Gateway</h1></center>
+<center><h1>504 Bad Gateway</h1></center>
 </body>
 </html>
